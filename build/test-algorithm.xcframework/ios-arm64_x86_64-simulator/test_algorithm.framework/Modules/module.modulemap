@@ -1,0 +1,11 @@
+framework module test_algorithm {
+  umbrella header "test_algorithm.h"
+  export *
+
+  module * { export * }
+}
+
+module test_algorithm.Swift {
+  header "test_algorithm-Swift.h"
+  requires objc
+}

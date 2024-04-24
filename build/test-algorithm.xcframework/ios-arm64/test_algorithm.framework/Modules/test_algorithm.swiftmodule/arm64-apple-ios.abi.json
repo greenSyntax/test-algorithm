@@ -1,0 +1,84 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "test_algorithm",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MyAlgorithm",
+        "printedName": "MyAlgorithm",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MyAlgorithm",
+                "printedName": "test_algorithm.MyAlgorithm",
+                "usr": "s:14test_algorithm11MyAlgorithmC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14test_algorithm11MyAlgorithmCACycfc",
+            "mangledName": "$s14test_algorithm11MyAlgorithmCACycfc",
+            "moduleName": "test_algorithm",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "prepareAlgo",
+            "printedName": "prepareAlgo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14test_algorithm11MyAlgorithmC11prepareAlgoyyF",
+            "mangledName": "$s14test_algorithm11MyAlgorithmC11prepareAlgoyyF",
+            "moduleName": "test_algorithm",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14test_algorithm11MyAlgorithmC",
+        "mangledName": "$s14test_algorithm11MyAlgorithmC",
+        "moduleName": "test_algorithm",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ab\/Documents\/XC\/test-algorithm\/test-algorithm\/MyAlgorithm.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 27,
+      "value": "\"This is my Algorithm 🌵\""
+    }
+  ]
+}
